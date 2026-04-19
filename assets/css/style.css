@@ -11,6 +11,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     color: #073b45;
     background-color: white;
     border-radius: 10px;
@@ -33,6 +34,7 @@ body {
 }
 
 .menu a {
+    max-width: ;
     font-size: 24px;
     margin: 10px;
     color: rgb(122, 118, 118);
@@ -410,15 +412,19 @@ body {
     }
     .cac-ky-nang{
         flex-direction: column;
+        align-items: center;
     }
 
     .kn{
         width: 100%;
+        max-width: 500px;
     }
     .cac-du-an{
         flex-direction: column;
+        align-items: center;
     }
     .project{
         width: 100%;
+        max-width: 500px;
     }
 }
