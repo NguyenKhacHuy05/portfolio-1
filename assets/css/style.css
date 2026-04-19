@@ -1,5 +1,5 @@
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Be Vietnam Pro', sans-serif;
     font-weight: 400;
     font-size: 24px;
     background-color: rgb(222, 232, 237);
@@ -34,7 +34,6 @@ body {
 }
 
 .menu a {
-    max-width: ;
     font-size: 24px;
     margin: 10px;
     color: rgb(122, 118, 118);
@@ -387,18 +386,25 @@ body {
         align-items: flex-start;
         padding: 10px;
     }
-
+    .header h1{
+        font-size: 24px;
+    }
     .menu{
         flex-wrap: wrap;
         justify-content: center;
     }
 
     .menu a{
-        font-size: 16px;
-        margin: 5px;
+        font-size: 0px;
+        margin-right: 13px;
         padding: 8px 12px;
         background-color: #f0f4f7;
         border-radius: 8px;
+    }
+
+    .menu a::before{
+        font-size: 20px;
+        margin: 0;
     }
     .main{
         flex-direction: column;
